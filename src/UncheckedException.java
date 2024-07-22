@@ -1,14 +1,15 @@
 // Непроверяемое исключение
-class UncheckedException extends RuntimeException {
-    public UncheckedException(String message) {
+class SumExceededException extends RuntimeException {
+    public SumExceededException(String message) {
         super(message);
     }
 }
 
 // Проверяемое исключение
-class CheckedException extends Exception {
-    public CheckedException(String message) {
+class SecondNumberGreaterException extends Exception {
+    public SecondNumberGreaterException(String message) {
         super(message);
     }
 }
+
 
